@@ -17,17 +17,28 @@ The stand includes a handy tray to store soldering wicks or soldering wire, as w
 
 > **⚠️ Warning:** This project requires you to work with 230V power. **A mistake can potentially create a fire hazard at best or be life-threatening at worst.** If you do not know what you are doing, then please seek the support from a knowledgeable person or do not attempt to do this at all.
 
+## AxxSolder
+
+Axel has done an amazing job putting together an open-source, reasonably priced, high-performance soldering iron that is compatible with the JBC cartridge ecosystem.
+
+You can support the creator of the AxxSolder by purchasing an assembled PCB from his website, [https://www.5dimensions.se/](https://www.5dimensions.se/). Alternatively, you can source the components and the PCB based on the design files provided by Axel at his [github page](https://github.com/AxxAxx/AxxSolder/tree/main).
+
 ## 3D Printed Parts
 
 The STL and STEP files can be found in this repository. All parts can be printed without supports, just make sure that your 3D printer has enough cooling to print the long bridge on the base of the stand. Most printers do.
 
+The sample pictures were printed on a Voron/DoomCube 2.4 with the A4T toolhead.
+
 ### Suggested Print Settings
 
 - **Material:** PLA (have not tested with others, but ABS/ASA is likely prone to significant warping due to the length of the base)
+- **Brim:** on the main body, only if you have warping issues (recommended for ASA/ABS)
 - **Perimeters:** 3 or 4
 - **Layer height:** 0.2 - 0.3 mm
 - **Infill:** 20-30%
 - **Top/bottom layers:** 3-5
+
+Note that the design in the pictures is from the prototype version, where the rocker switch was incorporated in the faceplate. As this was very hard to print with good quality (you can see the blistering on the sample pictures), and was tricky to assemble, I have modified the stand to have the rocker switch on the base plate (current version 1.0).
 
 ## Tools Required
 
@@ -298,7 +309,13 @@ This tray has two functions:
 
 ## License
 
-Please refer to the [Axxsolder repository](https://github.com/AxxAxx/AxxSolder) for licensing information.
+Please refer to the [Axxsolder repository](https://github.com/AxxAxx/AxxSolder) for licensing information relevant to the Axxsolder itself.
+
+This hardware enclosure is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+
+To view a copy of this license, visit: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Please note that while the [Axxsolder](https://github.com/AxxAxx/AxxSolder) is licensed under the GNU General Public License (GPL) v3.0, this case is an independent, original mechanical design and is licensed separately as stated above, while respecting the share-alike and attribution requirements of the GPL.
 
 ## Credits
 
